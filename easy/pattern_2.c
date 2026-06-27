@@ -1,0 +1,17 @@
+//2. Print this pattern using nested loops: rows of 1, 12, 123, 1234, 12345.
+#include<stdio.h>
+int main () {
+int n;
+
+printf("Enter no of lines : ");
+scanf("%d", &n);
+
+for(int i=1; i<=n; i++){
+    for(int j=1;j<=i;j++){
+        printf("%d",j);
+    }
+     printf("\n");
+}
+
+    return 0 ;
+}
