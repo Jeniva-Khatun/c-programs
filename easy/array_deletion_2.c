@@ -1,6 +1,4 @@
 
-
-
 #include<stdio.h>
 int main (){
 
@@ -20,7 +18,7 @@ for(int i=0; i<size; i++){
 index = 0 ;
 
 if(index<0 || index >=size ){
-   return printf("user have entered invalid index");
+   return printf("user have entered invalid index.");
 }
 int deletevalue = arr[index];
 
